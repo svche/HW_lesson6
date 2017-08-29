@@ -46,7 +46,7 @@ namespace HW_lesson6
                         Console.WriteLine("\nSum is odd");
                     } else
                     {
-                        Console.WriteLine("Sum is even");
+                        Console.WriteLine("\nSum is even");
                     }
 
                     sumA = (int)sumA;
@@ -78,7 +78,7 @@ namespace HW_lesson6
                     }
                     else
                     {
-                        Console.WriteLine("Sum is even");
+                        Console.WriteLine("\nSum is even");
                     }
 
                     sumA = (int)sumA;
