@@ -16,7 +16,7 @@ namespace HW_lesson6
  (тут неважно какое число будет большим - первое или второе). +
 Привести результат к типу int и проверить четное оно или нет. */
 
-            /* */
+            /* 
             double sum = 0;
             double sumA;
             bool b = true;
@@ -98,16 +98,33 @@ namespace HW_lesson6
                     b = true;
                 }
             } while (b);
-            
+            */
 
+            /*2.Зада очень повышенной сложности - необязательная к выполнению: 
+Нарисовать пирамиду из звездочек заданной с клавиатуры высоты.
+Например ввели 3:
+  *
+ ***
+*****
+*/
 
-          
+  /*          Console.Write("Enter number for size of a triangle: ");
+            int size = int.Parse(Console.ReadLine());
 
-
-
-
-
-
+            for (int i = 0; i < size; i++)
+            {
+                
+                    for (int j = (size - i); j > 1; --j)
+                    {
+                        Console.Write(" ");
+                    }
+                    for (int k = 0; k < i; k++)
+                    {
+                        Console.Write("**");
+                    }
+               Console.WriteLine('*');
+            }
+*/
             Console.ReadLine();
         }
     }
